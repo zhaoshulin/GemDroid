@@ -15,3 +15,5 @@
 	
 ## Run
 	build/ARM/gem5.debug -d results/test configs/example/se.py -n 1 --cpu-type=timing --caches --l2cache --num-dirs=1 --gemdroid --cpu_trace1 traces/your_trace.trace --num_cpu_traces=1 --device_config=ini/your_device_config.ini --system_config=your_system_config.ini -c tests/test-progs/hello/bin/arm/linux/hello
+
+## For Android 7
